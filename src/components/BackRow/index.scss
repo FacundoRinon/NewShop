@@ -1,0 +1,24 @@
+.backRow {
+  width: 100%;
+  position: relative;
+  top: 85px;
+  color: $color-primary;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  @media (min-width: 576px) {
+    &__icon {
+      width: 5%;
+      padding: 1rem;
+      padding-left: 2rem;
+      font-size: 2rem;
+    }
+  }
+
+  @media (max-width: 575px) {
+    &__icon {
+      padding: 1rem;
+      font-size: 1.5rem;
+    }
+  }
+}

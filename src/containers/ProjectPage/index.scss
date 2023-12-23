@@ -1,0 +1,87 @@
+@import '../../theme/variables.scss';
+.projectPage {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  &__header {
+    margin-top: 130px;
+    width: 90%;
+    & p {
+      text-align: justify;
+      line-height: 1.5;
+    }
+  }
+
+  &__duration {
+    width: 90%;
+    & p {
+      text-align: justify;
+      line-height: 1.5;
+    }
+  }
+
+  &__aboutMe {
+    width: 90%;
+    & p {
+      text-align: justify;
+      line-height: 1.5;
+    }
+  }
+
+  &__me {
+    margin-top: 2rem;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__img {
+    border: 2px solid $color-primary;
+    border-radius: 50%;
+    max-height: 10rem;
+  }
+
+  &__info {
+    padding-left: 1rem;
+  }
+
+  &__contact {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    & p {
+      margin: 0.5rem;
+    }
+  }
+
+  &__link {
+    &--linkedin {
+      background-color: blue;
+      padding: 0.5rem;
+      color: white;
+      border-radius: 10px;
+      cursor: pointer;
+      z-index: 10;
+    }
+    &--github {
+      background-color: purple;
+      padding: 0.5rem;
+      color: white;
+      border-radius: 10px;
+      cursor: pointer;
+      z-index: 10;
+    }
+    &--portfolio {
+      background-color: black;
+      padding: 0.5rem;
+      color: white;
+      border-radius: 10px;
+      cursor: pointer;
+      z-index: 10;
+    }
+  }
+}

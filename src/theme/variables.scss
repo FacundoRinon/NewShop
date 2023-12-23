@@ -1,0 +1,16 @@
+$base-font: monospace;
+$color-primary: rgb(134, 31, 17);
+$color-3th: rgb(0, 46, 131);
+$color-secondary: rgb(0, 0, 0);
+$color-picked: rgb(27, 72, 213);
+
+.link {
+  &--white {
+    text-decoration: none;
+    color: white;
+  }
+  &--primary {
+    text-decoration: none;
+    color: $color-primary;
+  }
+}

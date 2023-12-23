@@ -1,0 +1,23 @@
+@import '../../theme/variables.scss';
+.aboutProject {
+  position: fixed;
+  left: 85vw;
+  right: 1rem;
+  @media (max-width: 576px) {
+    left: 70vw;
+    right: 2rem;
+    font-size: 0.5rem;
+  }
+  & p {
+    background-color: black;
+    color: white;
+    padding: 0.5rem;
+    border: 2px solid $color-primary;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.5s;
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+}

@@ -1,0 +1,31 @@
+@import '../../theme/variables.scss';
+
+.errorPage {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $color-primary;
+
+  &__container {
+    width: 60%;
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    & h1 {
+      font-size: 2rem;
+    }
+  }
+
+  &__img {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    & img {
+      border: 5px solid $color-primary;
+      border-radius: 50%;
+    }
+  }
+}
