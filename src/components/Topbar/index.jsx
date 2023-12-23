@@ -50,7 +50,7 @@ const Topbar = () => {
             className="link--white"
             onClick={() => setDrop(false)}
             to="/">
-            <h1 className="topbar__title">LtStore</h1>
+            <h1 className="topbar__title">NewStore</h1>
           </Link>
         </div>
         <div className="topbar__actions">
